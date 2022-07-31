@@ -10,6 +10,8 @@ body {
     
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
 .logo {
     position: absolute;
     top: 8px;
@@ -114,6 +116,6 @@ input {
     font-family: "Inter", sans-serif;
     color: gray;
     margin-top: 220px;
-    
+   }
 }
 
