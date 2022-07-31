@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="palavra.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Adicionar palavra</title>
+</head>
+<body>
+    <header class="logo">
+        <img src="imagens/logoalura.png" alt="">
+    </header>
+    <main id="inicio">
+        <div>
+            <section>
+            <div id = "adicionar-palavra" class="palavra-nova">
+                <input type="text" id="input-texto" placeholder="Digite uma palavra..."></input>
+            <div>
+                <h6 class="instrucao">Máx. de 7 letras.</h6>
+            </div>    
+            <div class="botoes-palavra">
+                <button class= "botao-salvar" id="btn-salvar" onclick="enviarPalavra()">Salvar</button>
+                <a href="index.html"><button class="botao-cancelar" type="submit"value="Cancelar" id="btn-cancelar">Retornar</button></a>
+                </div>
+            </div>
+            </section>
+         </div>   
+    </main>
+    <script src="palavra.js"></script>
+</body>
+</html>

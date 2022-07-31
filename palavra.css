@@ -1,0 +1,119 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: 0;
+}
+
+body {
+    background-color: #F3F5FC;
+    
+}
+
+.logo {
+    position: absolute;
+    top: 8px;
+}    
+
+.main {
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    padding: 0px;
+}
+
+#input-texto {
+    width: auto;
+    margin-top: 100px;
+    margin-left: 380px;
+    margin-right: 30px;
+    font-size: 32px;
+    border: lightblue ;
+    background-color: #F3F5FC;
+    padding: 60px;
+}
+
+#input-texto::placeholder {
+    font-weight: 400;
+    font-size: 25px;
+    color: darkblue;
+    margin-left: 30px;
+    line-height: 150%;
+}
+
+input {
+    resize: none;
+    outline: 0;
+    color: #0A3871;
+    text-transform: uppercase;
+}
+
+.botoes-palavra  {
+    flex-direction: row;
+    margin-left: 430px;
+    margin-top: 77px;
+    padding: 0px;
+}
+
+.botao-salvar {
+    width: 200px;
+    height: 47px;
+    border-radius: 24px;
+    border: none;
+    background-color: #0A3871;
+    color:#FFFFFF;
+    box-shadow: 2px 2px 0 1px rgba(0, 0, 0, 0.8);
+    
+}        
+
+.botao-salvar:active {
+    box-shadow: 0 0 0 0 darkblue, inset 3px 3px 3px rgba(0, 0, 0, 0.8);
+    transform: translate( 3px, 3px);
+}
+
+.botao-cancelar {
+    width: 200px;
+    height: 47px;
+    margin-left: 10px;
+    border: none;
+    border-color: #0A3871;
+    border-radius: 24px;
+    gap: 8px;
+    color: #0A3871;
+    flex: none;
+    box-shadow: 2px 2px 0 1px rgba(0, 0, 0, 0.8);
+}        
+
+.botao-cancelar:active {
+    box-shadow: 0 0 0 0 darkblue, inset 3px 3px 3px rgba(0, 0, 0, 0.8);
+    transform: translate( 3px, 3px);
+}
+
+.botao-salvar {
+    width: 200px;
+    height: 47px;
+    border-radius: 24px;
+    border: none;
+    background-color: #0A3871;
+    color:#FFFFFF;
+    box-shadow: 2px 2px 0 1px rgba(0, 0, 0, 0.8);
+    
+}        
+
+.botao-salvar:active {
+    box-shadow: 0 0 0 0 darkblue, inset 3px 3px 3px rgba(0, 0, 0, 0.8);
+    transform: translate( 3px, 3px);
+}
+
+.instrucao {
+    text-align: left;
+    flex-direction: row;
+    margin-left: 450px;
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+    color: gray;
+    margin-top: 220px;
+    
+}
+
