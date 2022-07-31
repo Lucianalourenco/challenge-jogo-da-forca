@@ -5,8 +5,6 @@
     margin-left: 0;
 }
 
-@media (min-width: 481px) and (max-width: 796px) {
-
 .body {
     background-color: #F3F5FC;
     
@@ -89,5 +87,4 @@ section a {
     width: 1rem;
     height: 1rem;
     padding: 0;
-  }
 }
