@@ -11,6 +11,8 @@ body {
     overflow: hidden;
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
 .logo {
     position: absolute;
     top: 8px;
@@ -70,5 +72,6 @@ body {
     box-shadow: 0 0 0 0 darkblue, inset 3px 3px 3px rgba(0, 0, 0, 0.8);
     transform: translate( 2px, 2px);
     cursor: pointer;
+  }
 }
     
